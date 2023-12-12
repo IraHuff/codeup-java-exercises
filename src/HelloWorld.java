@@ -8,6 +8,7 @@ public class HelloWorld {
 
         String myString = "the meaning of life, the universe, everything";
         //3.14159 compiles fine changing it to ' says to many characters in a character literal
+        //incompatible type
         System.out.println(myString);
 
         float myNumber;
