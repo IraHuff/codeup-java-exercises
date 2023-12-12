@@ -31,3 +31,7 @@ bin/
 # Compiled output
 *.class
 out/*
+
+# IntelliJ
+.idea/*
+*.iml
