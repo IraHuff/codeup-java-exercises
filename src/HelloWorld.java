@@ -57,5 +57,8 @@ public class HelloWorld {
         //int went negative
         //int is 4 bytes
 
+        char unicode ='\u0000';
+        System.out.println(unicode);
+
     }
 }
