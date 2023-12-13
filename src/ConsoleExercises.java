@@ -18,6 +18,7 @@ public class ConsoleExercises {
         System.out.println(userString3);
 // if less than three the prompt continues if more the extra ignored
         System.out.println("a short sentence please");
+        scanner.nextLine();
         String userSentence = scanner.nextLine();
         System.out.println(userSentence);
         //next only captures up to the first whitespace
