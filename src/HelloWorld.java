@@ -42,7 +42,7 @@ public class HelloWorld {
 
 //        int x = 3;
 //        int y = 4;
-//        y += x;
+//        y *= x;
 //        System.out.println(y);
 
 //        int x = 10;
@@ -55,11 +55,11 @@ public class HelloWorld {
         int x = 2147483647;
         x++;
         System.out.println(x);
+        // if beyond value get error
         //int went negative
         //int is 4 bytes
 
         char unicode ='\u0000';
         System.out.println(unicode);
-
     }
 }
