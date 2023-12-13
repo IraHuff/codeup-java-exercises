@@ -31,7 +31,7 @@ public class ConsoleExercises {
         double area = length * width;
         double volume = length * height * width;
 
-        System.out.format("The perimeter of the room is %f, the area of the room is %f, the volume of the room is %f.", perimeter, area, volume);
+        System.out.format("The perimeter of the room is %f, the area of the room is %f, the volume of the room is %f.%n", perimeter, area, volume);
 
     }
 }
