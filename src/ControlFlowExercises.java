@@ -51,11 +51,24 @@ public class ControlFlowExercises {
             }
         }
         Scanner scanner = new Scanner(System.in);
+        boolean more;
         do {
             System.out.print("What number would you like to go up to?");
             int userInput = scanner.nextInt();
+            System.out.println("number | squared | cubed");
+            System.out.println("-------|---------|------");
+            for(int m=1; m<=userInput; m++){
+                System.out.format("%d      | %d       | %d%n",m, (int)Math.pow(m,2), (int)Math.pow(m,3));
+            }
+            System.out.print("Would you like to play a game?  (y/N)");
+            String confirm = scanner.next();
+            if(confirm.equalsIgnoreCase("y")){
+                more = true;
+            }else {
+                more = false;
+            }
 
-        }while(false);
+        }while(more);
 
     }
 }
