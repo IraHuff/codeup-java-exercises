@@ -23,11 +23,11 @@ public class ConsoleExercises {
         System.out.println(userSentence);
         //next only captures up to the first whitespace
         System.out.println("please enter the length of the room");
-        double length = scanner.nextDouble();
+        double length = Double.parseDouble(scanner.nextLine());
         System.out.println("please enter the width of the room");
-        double width = scanner.nextDouble();
+        double width = Double.parseDouble(scanner.nextLine());;
         System.out.println("please enter the height of the room");
-        double height = scanner.nextDouble();
+        double height = Double.parseDouble(scanner.nextLine());;
         double perimeter = (length * 2) + (width * 2);
         double area = length * width;
         double volume = length * height * width;
