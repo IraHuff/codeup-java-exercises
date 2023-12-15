@@ -6,7 +6,7 @@ public class HighLow {
     }
 
     public static int random() {
-        return (int) (Math.floor(Math.random() * 101) + 1);
+        return (int) (Math.floor(Math.random() * 100) + 1);
     }
 
     public static void game() {
