@@ -15,7 +15,7 @@ public class MethodsExercises {
         System.out.print("Enter a number between 1 and 20: ");
         long userInput = getInteger(1, 20);
         System.out.printf("your factorial is %d.%n",userInput);
-        diceRoll();4
+        diceRoll();
     }
 
     public static int Addition (int a, int b) {
