@@ -63,7 +63,8 @@ public class MethodsExercises {
         }
     }
     public static int getRandom(int min, int max){
-        return (int) Math.floor(Math.random()*max+1) +min;
+
+        return (int) Math.floor(Math.random()*max) +min;
     }
     public static void diceRoll(){
         Scanner dice = new Scanner(System.in);
