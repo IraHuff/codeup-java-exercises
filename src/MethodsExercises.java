@@ -42,7 +42,11 @@ public class MethodsExercises {
         return sum;
     }
     public static int remainder (int a, int b){
+        if (b==0) {
+            return 0;
+        }else {
         return a%b;
+        }
     }
     public static long getInteger(int min, int max){
         Scanner scanner = new Scanner(System.in);
