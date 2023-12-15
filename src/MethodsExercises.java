@@ -19,12 +19,10 @@ public class MethodsExercises {
     }
 
     public static int Addition (int a, int b) {
-        int sum = a + b;
-        return sum;
+        return a + b;
     }
     public static int Subtraction (int a, int b) {
-        int dif = a - b;
-        return dif;
+        return a - b;
     }
     public static int Multiplication (int a, int b) {
         if (a<b){
@@ -38,8 +36,7 @@ public class MethodsExercises {
     }
 
     public static double Division (int a, int b){
-        double sum = (double)a/(double)b;
-        return sum;
+        return (double)a/(double)b;
     }
     public static int remainder (int a, int b){
         if (b==0) {
@@ -80,7 +77,7 @@ public class MethodsExercises {
             System.out.println("Roll again? y/N");
             String confirm = dice.next();
             if (confirm.equalsIgnoreCase("y")){
-                continue;
+                diceRoll();
             }else{
                 break;
             }
